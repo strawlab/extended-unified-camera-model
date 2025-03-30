@@ -1,0 +1,31 @@
+[package]
+name = "extended-unified-camera-model"
+authors = ["Andrew Straw <strawman@astraw.com>"]
+version = "0.1.0"
+edition = "2024"
+description = "Extended Unified Camera Model"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/strawlab/extended-unified-camera-model"
+keywords = ["computer", "vision", "photogrammetry"]
+categories = [
+    "algorithms",
+    "computer-vision",
+    "no-std",
+    "science",
+    "science::robotics",
+]
+
+[dependencies]
+cam-geom = { version = "0.15.3", default-features = false }
+nalgebra = { version = "0.33.2", default-features = false }
+
+serde = { version = "1.0", default-features = false, features = [
+    "derive",
+], optional = true }
+
+[dev-dependencies]
+serde_json = "1.0"
+
+[features]
+serde-serialize = ["dep:serde", "cam-geom/std", "nalgebra/serde-serialize"]
