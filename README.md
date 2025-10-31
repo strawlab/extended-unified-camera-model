@@ -15,9 +15,10 @@ feature.
 
 The Extended Unified Camera Model was originally described in B. Khomutenko, G.
 Garcia, and P. Martinet. "An enhanced unified camera model". *IEEE Robotics and
-Automation Letters*, 1(1):137–144, Jan 2016. This formulation follows "The
-Double Sphere Camera Model" by Vladyslav Usenko, Nikolaus Demmel and Daniel
-Cremers [doi:10.1109/3DV.2018.00069](https://doi.org/10.1109/3DV.2018.00069).
+Automation Letters*, 1(1):137–144, Jan 2016. The formulation here follows the
+formulation in sections 2.2 and 2.3 in the paper "The Double Sphere Camera
+Model" by Vladyslav Usenko, Nikolaus Demmel and Daniel Cremers
+[doi:10.1109/3DV.2018.00069](https://doi.org/10.1109/3DV.2018.00069).
 
 ## License
 
