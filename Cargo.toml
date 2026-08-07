@@ -3,6 +3,7 @@ name = "extended-unified-camera-model"
 authors = ["Andrew Straw <strawman@astraw.com>"]
 version = "0.2.0"
 edition = "2024"
+rust-version = "1.89"
 description = "Extended Unified Camera Model"
 license = "MIT OR Apache-2.0"
 readme = "README.md"
@@ -17,8 +18,8 @@ categories = [
 ]
 
 [dependencies]
-cam-geom = { version = "0.16", default-features = false }
-nalgebra = { version = "0.34", default-features = false }
+cam-geom = { version = "0.17", default-features = false }
+nalgebra = { version = "0.35", default-features = false }
 
 serde = { version = "1.0", default-features = false, features = [
     "derive",
